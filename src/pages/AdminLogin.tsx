@@ -48,7 +48,7 @@ export default function AdminLogin() {
       </h1>
 
       <p className="mt-5 text-[17px] leading-relaxed reveal" style={{ '--i': 2, color: 'var(--color-body)' } as React.CSSProperties}>
-        Restricted access for the cyberhx team.
+        Restricted access for administrators.
       </p>
 
       <form onSubmit={submit} className="panel form-card mt-8 reveal" style={{ '--i': 3 } as React.CSSProperties}>

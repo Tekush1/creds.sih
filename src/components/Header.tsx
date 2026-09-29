@@ -6,9 +6,7 @@
    in the cleanup. The /admin link is a convenience for a signed-in operator;
    the footer link to /admin/login is the actual door and lives in App.tsx.
 
-   The mark is the real cyberhx wordmark, not a typeset imitation of it. Next
-   to it, after a hairline, the product name — the way a company names a
-   product inside its own brand.
+   The home link is just the product name, "Credentials".
    ========================================================================== */
 
 import { useEffect, useState } from 'react';
@@ -41,9 +39,7 @@ export default function Header() {
     // a dead band along the bottom of the viewport.
     <header className="site-header sticky top-0 z-30">
       <div className="mx-auto flex h-16 max-w-6xl items-center justify-between gap-6 px-5 sm:px-6">
-        <Link to="/" viewTransition className="brand" aria-label="cyberhx Credentials — home">
-          <img src="/brand/cyberhx-dark.png" alt="cyberhx" width={300} height={106} className="brand__mark" />
-          <span className="brand__rule" aria-hidden="true" />
+        <Link to="/" viewTransition className="brand" aria-label="Credentials — home">
           <span className="brand__product">Credentials</span>
         </Link>
 

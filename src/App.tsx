@@ -86,9 +86,7 @@ function Footer() {
       <div className="mx-auto max-w-6xl px-5 sm:px-6">
         <div className="footer__top">
           <div className="footer__brand">
-            <Link to="/" viewTransition className="brand" aria-label="cyberhx Credentials — home">
-              <img src="/brand/cyberhx-dark.png" alt="cyberhx" width={300} height={106} className="brand__mark" />
-              <span className="brand__rule" aria-hidden="true" />
+            <Link to="/" viewTransition className="brand" aria-label="Credentials — home">
               <span className="brand__product">Credentials</span>
             </Link>
             <p className="footer__blurb">
@@ -108,17 +106,11 @@ function Footer() {
               {/* The only way in for a signed-out admin. Do not remove. */}
               <FooterLink to="/admin/login">Admin sign-in</FooterLink>
             </div>
-            <div>
-              <p className="footer__head">cyberhx</p>
-              <a className="footer__link" href="https://cyberhx.com" target="_blank" rel="noopener noreferrer">
-                cyberhx.com <span aria-hidden="true">&#8599;</span>
-              </a>
-            </div>
           </nav>
         </div>
 
         <div className="footer__bottom">
-          <p>&copy; 2026 cyberhx. All rights reserved.</p>
+          <p>&copy; 2026 All rights reserved.</p>
           <ReduceMotion />
         </div>
       </div>

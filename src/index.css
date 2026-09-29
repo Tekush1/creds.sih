@@ -51,7 +51,7 @@
   --color-sih-vein:     #E8730C;   /* Smart India Hackathon: saffron        */
   --color-sih-front:    #FF9933;
   --color-sih-rim:      #B45309;
-  --color-quartz:       #00A38C;   /* cyberhx brand teal */
+  --color-quartz:       #00A38C;   /* brand teal */
   --color-brand:        #00A38C;
   --color-brand-hi:     #008C78;   /* /verify + /admin. Deliberately plain. */
 
@@ -1666,7 +1666,7 @@ html[data-motion="off"] .ev__foil { display: none; }
 .navpill__item:focus-visible { outline: 2px solid var(--color-brand); outline-offset: 2px; }
 
 @media (max-width: 480px) {
-  .brand__rule, .brand__product { display: none; }
+  .brand__rule { display: none; }
 }
 
 /* ---- Footer ------------------------------------------------------------------ */

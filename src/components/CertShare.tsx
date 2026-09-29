@@ -40,7 +40,7 @@ const META: Record<EventKey, Meta> = {
         : [{ text: 'Proud to have taken part in Smart India Hackathon 2026, ' }]),
       { text: 'the national product-development hackathon by the Ministry of Education\u2019s Innovation Cell and AICTE.' },
     ],
-    tags: '#SIH2026 #SmartIndiaHackathon #Hackathon #Innovation #cyberhx',
+    tags: '#SIH2026 #SmartIndiaHackathon #Hackathon #Innovation',
   },
 };
 
@@ -94,8 +94,7 @@ export default function CertShare({
     const params = new URLSearchParams({
       startTask: 'CERTIFICATION_NAME',
       name: `${m.name} ${m.title(finals)}`,
-      organizationName: 'CyberHx',
-      organizationId: '107736778',
+      organizationName: 'Smart India Hackathon',
       issueYear: String(d.getFullYear() || 2026),
       issueMonth: String((d.getMonth() + 1) || 1),
       certUrl: verifyUrl,

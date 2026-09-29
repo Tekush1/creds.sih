@@ -180,7 +180,7 @@ export default function Verify() {
             heading={outcome === 'nomatch' ? 'Not a certificate we issued' : 'The lookup did not complete'}
             note={
               outcome === 'nomatch'
-                ? 'Check the ID against the certificate itself — characters are letters and digits only, and the ID is the line printed beneath the name. If it is copied exactly and still does not resolve, this document was not issued by cyberhx.'
+                ? 'Check the ID against the certificate itself — characters are letters and digits only, and the ID is the line printed beneath the name. If it is copied exactly and still does not resolve, this document was not issued through this portal.'
                 : 'This is a problem reaching our records, not a judgement on the certificate. Nothing has been ruled out. Try again in a moment.'
             }
           >
@@ -222,7 +222,7 @@ function Record({
             <svg viewBox="0 0 24 24" width="20" height="20"><path d="M5 12.5 10 17.5 19 7" fill="none" stroke="currentColor" strokeWidth="2.2" strokeLinecap="round" strokeLinejoin="round" /></svg>
           </span>
           <div>
-            <p className="verified__kicker">Verified by cyberhx</p>
+            <p className="verified__kicker">Verified certificate</p>
             <p className="verified__sub">This certificate is genuine and on record.</p>
           </div>
         </div>
