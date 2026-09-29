@@ -1,0 +1,5 @@
+{
+  "name": "Smart India Hackathon Certificate Portal",
+  "description": "Participants enter their registered email to claim their Smart India Hackathon certificate, verify credentials, and share achievements to LinkedIn and Instagram.",
+  "requestFramePermissions": []
+}
