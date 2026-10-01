@@ -20,8 +20,8 @@ interface Props {
 
 const CERT_IMAGE = '/certificate.png';
 
-const NAME_Y     = 0.570;  // baseline of the name, as a fraction of image height (bigger = lower)
-const NAME_SIZE  = 0.105;  // biggest font size, as a fraction of image height
+const NAME_Y     = 0.615;  // baseline of the name, as a fraction of image height (bigger = lower)
+const NAME_SIZE  = 0.085;  // biggest font size, as a fraction of image height
 const NAME_MAX_W = 0.62;   // the name is shrunk to fit inside this fraction of the width
 const NAME_COLOR = '#12285C';
 
