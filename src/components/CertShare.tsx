@@ -65,7 +65,6 @@ export default function CertShare({
 
   const details: [string, string][] = [
     ['Team', participant.team],
-    ...(participant.rank != null ? [['Rank', `#${participant.rank}`] as [string, string]] : []),
     ['Event', m.name],
     ['Credential ID', participant.id],
   ];

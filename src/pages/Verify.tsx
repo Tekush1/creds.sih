@@ -234,7 +234,9 @@ function Record({
 
         <dl className="verified__grid">
           <Fact label="Team"           value={cert.team_name} />
-          <Fact label="Rank"           value={`#${cert.rank}`} tint="var(--vein)" />
+          <div>
+            <img src="https://i.ibb.co/BVhSh9b3/2-A12-D19-C-B2-B5-49-AA-B303-432244-F5-F7-D0.png" alt="Certificate badge" style={{ maxWidth: '100%', height: 'auto', borderRadius: 12 }} />
+          </div>
           <Fact label="Issued"         value={issued} />
           <Fact label="Certificate ID" value={cert.id} mono />
           <Fact label="Email"          value={maskEmail(cert.email)} mono nowrap />

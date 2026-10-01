@@ -513,7 +513,6 @@ function Flow({ ev }: { ev: EventInfo }) {
               </span>
               <p className="match-card__team">{lookup.team_name}</p>
               <dl className="match-card__stats">
-                <div><dt>Rank</dt><dd style={{ color: 'var(--vein)' }}>#{lookup.rank}</dd></div>
                 {lookup.points != null && <div><dt>Points</dt><dd>{lookup.points.toLocaleString('en-US')}</dd></div>}
                 {lookup.member_count != null && <div><dt>Members</dt><dd>{lookup.member_count}</dd></div>}
                 <div><dt>Round</dt><dd>{roundLabel}</dd></div>
@@ -564,7 +563,7 @@ function Flow({ ev }: { ev: EventInfo }) {
                 </p>
               )}
               <p className="issued__meta">
-                {cert.team_name} &middot; Rank #{cert.rank} &middot; {roundLabel} &middot; {(cert.issued_at || '').split('T')[0]}
+                {cert.team_name} &middot; {roundLabel} &middot; {(cert.issued_at || '').split('T')[0]}
               </p>
 
               <div className="issued__id">
